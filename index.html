@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Website Navbar Using Flexbox</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: "Segoe UI", sans-serif;
+    }
+
+    header {
+      
+      padding: 10px 20px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      width: 164px;
+      height: auto;
+    }
+
+    .right ul {
+      display: flex;
+      gap: 34px;
+      list-style: none;
+    }
+
+    .right ul li {
+      cursor: pointer;
+    }
+
+    .end img {
+      width: 24px;
+      height: auto;
+      cursor: pointer;
+    }
+
+    /* Optional: Add hover effect */
+    .right ul li:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Website Navbar Using Flexbox -->
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="Logo" />
+      </div>
+      <div class="right">
+        <ul>
+          <li>Products</li>
+          <li>Pricing</li>
+          <li>Resources</li>
+          <li>About Us</li>
+        </ul>
+      </div>
+      <div class="end">
+        <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt="Language" />
+      </div>
+    </nav>
+  </header>
+</body>
+
+</html>
