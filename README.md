@@ -14,7 +14,7 @@ This project is a simple HTML and CSS clone of the **UltraEdit website navigatio
 
 ## 🚀 How to View
 You can view it live here (after deployment):  
-👉 [https://yourusername.github.io/ultraedit-navbar/](https://yourusername.github.io/ultraedit-navbar/)
+👉 https://divyansh11x.github.io/ultraedit-navbar/
 
 ---
 
